@@ -55,7 +55,7 @@ To get started with the Pet Veterinary Clinic System, follow these steps:
 
 ### 1. Clone the repository to your local machine:
 
-    git clone https://github.com/karl2522/PetVet-Final.git
+    git clone https://github.com/hangs0821/PetVet---IM2-Project.git
 
 ### 2. Navigate to the project directory:
 
