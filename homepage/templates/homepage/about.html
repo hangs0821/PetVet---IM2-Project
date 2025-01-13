@@ -1,0 +1,195 @@
+{% extends 'base.html' %} 
+
+{% load static %} 
+
+{% block title %}PetVet - About Us {% endblock %} 
+
+{% block nav_about %} active {% endblock %} 
+
+{% block content %}
+<div class="container py-5">
+  <!-- Hero Section -->
+  <div class="text-center mb-5">
+    <h1 class="display-4 fw-bold mb-4">Our Story</h1>
+    <p class="lead text-muted">
+      Caring for Pets with Love and Expertise Since 2020
+    </p>
+  </div>
+
+  <!-- Mission and Values -->
+  <div class="row g-4 mb-5">
+    <div class="col-md-4">
+      <div class="card h-100 border-0 shadow-sm">
+        <div class="card-body text-center p-4">
+          <div class="mb-3">
+            <i class="fas fa-heart fa-3x text-primary"></i>
+          </div>
+          <h3 class="h4 mb-3">Our Mission</h3>
+          <p class="text-muted">
+            To provide exceptional veterinary care with compassion and
+            understanding, ensuring every pet lives their healthiest, happiest
+            life.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card h-100 border-0 shadow-sm">
+        <div class="card-body text-center p-4">
+          <div class="mb-3">
+            <i class="fas fa-star fa-3x text-primary"></i>
+          </div>
+          <h3 class="h4 mb-3">Our Vision</h3>
+          <p class="text-muted">
+            To be the most trusted partner in pet healthcare, known for our
+            expertise, innovation, and dedication to both pets and their
+            families.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card h-100 border-0 shadow-sm">
+        <div class="card-body text-center p-4">
+          <div class="mb-3">
+            <i class="fas fa-shield-alt fa-3x text-primary"></i>
+          </div>
+          <h3 class="h4 mb-3">Our Values</h3>
+          <p class="text-muted">
+            Compassion, Excellence, Integrity, and Innovation guide everything
+            we do in caring for your beloved pets.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Team Section -->
+  <div class="text-center mb-5">
+    <h2 class="display-5 fw-bold mb-4">Meet Our Team</h2>
+    <p class="lead text-muted mb-5">
+      Dedicated professionals committed to your pet's health
+    </p>
+  </div>
+
+  <div class="row g-4">
+    <div class="col-md-4">
+      <div class="card border-0 shadow-sm">
+        <img
+          src="{% static 'images/omen.png' %}"
+          class="card-img-top"
+          alt="Dr. Michael Chen"
+        />
+        <div class="card-body text-center p-4">
+          <h4 class="card-title mb-1">Dr. Jared Karl Omen</h4>
+          <p class="text-muted mb-3">Senior Veterinarian</p>
+          <p class="card-text">
+            Dr. Jared Karl Omen is our exotic pet specialist with expertise in
+            avian and reptile medicine.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card border-0 shadow-sm">
+        <img src="{% static 'images/sacamay.png' %}"
+          class="card-img-top"
+          alt="Dr. Sarah Johnson"
+        />
+        <div class="card-body text-center p-4">
+          <h4 class="card-title mb-1">Dr. Hannah Grace Sacamay</h4>
+          <p class="text-muted mb-3">Chief Veterinarian</p>
+          <p class="card-text">
+            With over 15 years of experience, Dr. Hannah Grace Sacamay
+            specializes in preventive care and surgery.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card border-0 shadow-sm">
+        <img
+          src="{% static 'images/julio.png' %}"
+          class="card-img-top"
+          alt="Dr. Emily Martinez"
+        />
+        <div class="card-body text-center p-4">
+          <h4 class="card-title mb-1">Dr. Julio Miguel Dumaguing</h4>
+          <p class="text-muted mb-3">Veterinary Specialist</p>
+          <p class="card-text">
+            Specializing in internal medicine and emergency care with 8 years of
+            experience.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Facilities Section -->
+  <div class="mt-5 pt-5">
+    <div class="text-center mb-5">
+      <h2 class="display-5 fw-bold mb-4">Our Facilities</h2>
+      <p class="lead text-muted mb-5">
+        State-of-the-art equipment and comfortable spaces for your pets
+      </p>
+    </div>
+
+    <div class="row g-4">
+      <div class="col-md-6">
+        <div class="card border-0 shadow-sm">
+          <img
+            src="https://www.foresthillvet.com.au/wp-content/uploads/2019/08/The-importance-of-laboratory-testing..jpg"
+            class="card-img-top"
+            alt="Examination Room"
+          />
+          <div class="card-body p-4">
+            <h4 class="card-title">Modern Examination Rooms</h4>
+            <p class="card-text text-muted">
+              Equipped with the latest diagnostic tools and designed for
+              comfort.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card border-0 shadow-sm">
+          <img
+            src="https://aercmn.com/wp-content/uploads/2021/12/AERC-Surgery-2.png"
+            class="card-img-top"
+            alt="Surgery Suite"
+          />
+          <div class="card-body p-4">
+            <h4 class="card-title">Advanced Surgery Suite</h4>
+            <p class="card-text text-muted">
+              State-of-the-art surgical equipment for various procedures.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Font Awesome for icons -->
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+  rel="stylesheet"
+/>
+
+{% block extra_css %}
+<style>
+  .card {
+    transition: transform 0.3s ease;
+  }
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  .text-primary {
+    color: var(--primary-color) !important;
+  }
+  .card-img-top {
+    height: 500px;
+    object-fit: cover;
+  }
+</style>
+{% endblock %} {% endblock %}
