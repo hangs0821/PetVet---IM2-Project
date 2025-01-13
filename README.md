@@ -59,7 +59,7 @@ To get started with the Pet Veterinary Clinic System, follow these steps:
 
 ### 2. Navigate to the project directory:
 
-    cd PetVet-Final # (Skip this if you're already in the project root)
+    cd PetVet---IM2-Project # (Skip this if you're already in the project root)
 
 ### 3. Install the dependencies from `requirements.txt`:
 
